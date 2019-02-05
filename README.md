@@ -31,6 +31,9 @@ _TODO: insert links_
 
 _TODO: add draft.toml file to backend node application repositoiry_
 
+Note: I've been working on a draft plugin called [draft setup](https://github.com/michelleN/draft-setup-plugin) which automates installing and starting up the dependencies. I still need to release the binaries so though so we can download and use the plugin.
+_TODO: release draft setup plugin which automates starting up all the dependencies for Draft_
+
 ### Take Draft for a Spin
 Use Draft to spin up build application Docker container and Deploy to local Kubernetes cluster (minikube)
 
