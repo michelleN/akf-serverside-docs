@@ -6,9 +6,11 @@ _Note: These docs are a work in progress_
 We have been given Azure credits to run our clusters on since we're a nonprofit.We have a small AKS cluster for development up and running where there is one instance of the backend node application running with sqlite. It is available via the IP address you can find in slack.
 
 _TODO: Enable TLS_
+
 _TODO: Deploy backend node application with a database running separately_
 
-The backend node application is running in a Docker container on top of a Kubernetes cluster. _TODO: add links to relevant tech_
+The backend node application is running in a Docker container on top of a Kubernetes cluster.
+_TODO: add links to relevant tech_
 
 ## Getting Started
 You can hit the endpoint (find in slack) and the routes (find on backend node application repo) and get back some JSON to test against.
@@ -18,10 +20,15 @@ The mobile app developers would like an endpoint to hit to get back some data an
 
 ### Pre-requisites
 Install Docker
+
 Install and start Minikube
+
 Install Helm and run `$ helm init` to set Helm up
+
 Install Draft, run `$ draft init` and take a look at the getting started docs.
+
 _TODO: insert links_
+
 _TODO: add draft.toml file to backend node application repositoiry_
 
 ### Take Draft for a Spin
